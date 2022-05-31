@@ -1,11 +1,20 @@
 <html>
     <head>
         <title>cogoport</title>
+        <style>
+            .fst{
+                color: midnightblue;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+                font-style: italic;
+                text-decoration: underline overline;
+            }
+        </style>
     </head>
     <body>
-        <h2>heading 2</h2>
+        <h1 class="fst">HEADING</h1>
         <h3>heading 3</h3>
-        <h4>heading 4</h4>
+        <h4 class="fst">heading 4</h4>
         <h5>heading 5</h5>
         <h6>heading 6</h6>
         <p>paragraph</p>
@@ -18,13 +27,16 @@
         <input type="email" placeholder="write your email here"/>
         <button>submit</button>
         <br>
-        <input type="radio" id="html" name="male"/> <label for="male">male</label>
-        <input type="radio" id="html" name="female"/> <label for="female">female</label>
+        <input type="radio" id="html" name="gender"/> <label for="male">male</label>
+        <br>
+        <input type="radio" id="html" name="gender"/> <label for="female">female</label>
         <br>
         <input type="checkbox" checked/>
         <input type="checkbox"/>
-
-
+        <select>
+            <option selected>option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
     </body>
 
 </html>
